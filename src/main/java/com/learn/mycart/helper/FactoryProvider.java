@@ -9,6 +9,10 @@ public class FactoryProvider {
 
     public static SessionFactory getFactory() {
         try {
+        
+            if(factory == null)
+            { 
+            }
 
             if (factory == null) {
                 factory = new Configuration()
