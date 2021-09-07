@@ -13,6 +13,8 @@ public class FactoryProvider {
             if(factory == null)
             { 
             }
+            else
+            { int x=10;}
 
             if (factory == null) {
                 factory = new Configuration()
