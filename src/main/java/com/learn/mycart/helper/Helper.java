@@ -7,10 +7,10 @@ public class Helper {
     {
         String[] strs = desc.split(" ");
         
-        if(strs.length>10)
+        if(strs.length>12)
         {
             String res="";
-            for(int i=0;i<10;i++)
+            for(int i=0;i<12;i++)
             {
                 res=res+strs[i]+" ";
             }
