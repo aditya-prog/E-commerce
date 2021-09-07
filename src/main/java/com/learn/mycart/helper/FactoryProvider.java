@@ -14,7 +14,8 @@ public class FactoryProvider {
             { 
             }
             else
-            { int x=10;}
+            { int x=10;
+                int y=20;}
 
             if (factory == null) {
                 factory = new Configuration()
