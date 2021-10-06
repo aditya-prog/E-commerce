@@ -134,7 +134,7 @@
                                 <%}
 
                                     if (list.size() == 0) {
-                                        out.println("<h3>No item in this category</h3>");
+                                        out.print("<h3>No item in this category</h3>");
                                     }
 
 

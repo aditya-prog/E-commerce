@@ -30,6 +30,7 @@ public class CategoryDao {
         Session s = this.factory.openSession();
         Query query = s.createQuery("from Category");
         List<Category> list = query.list();
+int y=10;
         return list;
     }
 
