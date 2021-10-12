@@ -23,6 +23,7 @@ public class CategoryDao {
         int catId = (int) session.save(cat);
         tx.commit();
         session.close();
+     int x=90;
         return catId;
     }
 
